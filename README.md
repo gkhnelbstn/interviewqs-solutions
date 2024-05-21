@@ -16,49 +16,35 @@ To use this template, make sure you have the following installed:
 Here's what your new project directory will look like:
 
 ## 📦 project_name
-├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.py           <- Makes project pip installable (pip install -e .) so src can be imported
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
-│
-└── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+- [LICENSE](./LICENSE)
+- [Makefile](./Makefile) - Makefile with commands like `make data` or `make train`
+- [README.md](./README.md) - The top-level README for developers using this project.
+- [data](./data)
+  - [external](./data/external) - Data from third party sources.
+  - [interim](./data/interim) - Intermediate data that has been transformed.
+  - [processed](./data/processed) - The final, canonical data sets for modeling.
+  - [raw](./data/raw) - The original, immutable data dump.
+- [docs](./docs) - A default Sphinx project; see [sphinx-doc.org](https://www.sphinx-doc.org/) for details.
+- [models](./models) - Trained and serialized models, model predictions, or model summaries.
+- [notebooks](./notebooks) - Jupyter notebooks. Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
+- [references](./references) - Data dictionaries, manuals, and all other explanatory materials.
+- [reports](./reports) - Generated analysis as HTML, PDF, LaTeX, etc.
+  - [figures](./reports/figures) - Generated graphics and figures to be used in reporting.
+- [requirements.txt](./requirements.txt) - The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`.
+- [setup.py](./setup.py) - Makes project pip installable (`pip install -e .`) so `src` can be imported.
+- [src](./src) - Source code for use in this project.
+  - [__init__.py](./src/__init__.py) - Makes `src` a Python module.
+  - [data](./src/data) - Scripts to download or generate data.
+    - [make_dataset.py](./src/data/make_dataset.py)
+  - [features](./src/features) - Scripts to turn raw data into features for modeling.
+    - [build_features.py](./src/features/build_features.py)
+  - [models](./src/models) - Scripts to train models and then use trained models to make predictions.
+    - [predict_model.py](./src/models/predict_model.py)
+    - [train_model.py](./src/models/train_model.py)
+  - [visualization](./src/visualization) - Scripts to create exploratory and results-oriented visualizations.
+    - [visualize.py](./src/visualization/visualize.py)
+- [tox.ini](./tox.ini) - tox file with settings for running tox; see [tox.readthedocs.io](https://tox.readthedocs.io/).
+
 
 ## 🛠️ Installing Development Requirements
 To install the development requirements, run:
