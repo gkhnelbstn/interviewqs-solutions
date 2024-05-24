@@ -1,19 +1,21 @@
 # 🧠 Data Science Project Template
 
-Welcome to your new data science project! This template is designed to help you kickstart your data science journey with a well-structured and organized project setup.
+Welcome to my InterviewQs challenges data science repository! This repository is created to help you solving problems in InterviewQs' daily challenges, in a well-structured and organized project setup.
 
 ## 🌟 Project Overview
 
-Provide a brief description of your project. What are you trying to achieve? What data are you working with? What insights or outcomes do you expect?
+Project Overview
+This project focuses on tackling InterviewQs' daily coding challenges. We'll be working with various datasets related to these challenges and aiming to develop solutions that effectively address the problems presented.
 
 ## 🔧 Requirements
 
-To use this template, make sure you have the following installed:
+To use this project, make sure you have the following installed:
 
 - **Python**: 2.7 or 3.5+
+- **Libraries**: Pandas, Numpy, itertools
 
 ## 📁 Directory Structure
-Here's what your new project directory will look like:
+Information about project folder structure:
 
 ## 📦 project_name
 - [LICENSE](./LICENSE)
