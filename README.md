@@ -4,7 +4,6 @@ Welcome to my InterviewQs challenges data science repository! This repository is
 
 ## 🌟 Project Overview
 
-Project Overview
 This project focuses on tackling InterviewQs' daily coding challenges. We'll be working with various datasets related to these challenges and aiming to develop solutions that effectively address the problems presented.
 
 ## 🔧 Requirements
