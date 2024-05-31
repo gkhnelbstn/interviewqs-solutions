@@ -1,10 +1,9 @@
-# 🧠 Data Science Project Template
+# 🧠 InterviewQs Daily Challenge Solutions
 
 Welcome to my InterviewQs challenges data science repository! This repository is created to help you solving problems in InterviewQs' daily challenges, in a well-structured and organized project setup.
 
 ## 🌟 Project Overview
 
-Project Overview
 This project focuses on tackling InterviewQs' daily coding challenges. We'll be working with various datasets related to these challenges and aiming to develop solutions that effectively address the problems presented.
 
 ## 🔧 Requirements
